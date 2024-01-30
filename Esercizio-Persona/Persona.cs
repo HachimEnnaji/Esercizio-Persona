@@ -16,6 +16,14 @@
         public string GetDettagli()
         {
             //test per commit
+            //test per commit
+
+
+
+            //test per commit
+            //test per commit
+            //test per commit
+
             //Console.WriteLine($"Nome :\t {this.Nome}\n cognome:\t {this.Cognome}\n ha:\t {this.Eta} anni");
             return "Nome: " + this.Nome + "\tCognome: " + this.Cognome + "\tEta':" + this.Eta + " anni";
         }
@@ -31,5 +39,10 @@
         {
             return this.Eta;
         }
+        public string GetNomeCognome()
+        {
+            return this.Eta + " " + this.Cognome;
+        }
     }
+}
 }
