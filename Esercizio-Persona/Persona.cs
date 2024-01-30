@@ -15,6 +15,7 @@
         }
         public string GetDettagli()
         {
+            //test per commit
             //Console.WriteLine($"Nome :\t {this.Nome}\n cognome:\t {this.Cognome}\n ha:\t {this.Eta} anni");
             return "Nome: " + this.Nome + "\tCognome: " + this.Cognome + "\tEta':" + this.Eta + " anni";
         }
