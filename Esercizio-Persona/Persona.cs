@@ -2,35 +2,34 @@
 {
     internal class Persona
     {
-        public string Nome;
-        public string Cognome;
-        public int Eta;
+        public string _nome;
+        public string _cognome;
+        public int _eta;
 
         public Persona(string nome, string cognome, int eta)
         {
-
-            this.Nome = nome;
-            this.Cognome = cognome;
-            this.Eta = eta;
+            _nome = nome;
+            _cognome = cognome;
+            _eta = eta;
         }
         public string GetDettagli()
         {
             //test per commit
 
             //Console.WriteLine($"Nome :\t {this.Nome}\n cognome:\t {this.Cognome}\n ha:\t {this.Eta} anni");
-            return "Nome: " + this.Nome + "\tCognome: " + this.Cognome + "\tEta':" + this.Eta + " anni";
+            return "Nome: " + _nome + "\tCognome: " + _cognome + "\tEta':" + _eta + " anni";
         }
         public string GetNome()
         {
-            return this.Nome;
+            return _nome;
         }
         public string GetCognome()
         {
-            return this.Cognome;
+            return _cognome;
         }
         public int GetEta()
         {
-            return this.Eta;
+            return _eta;
         }
     }
 }
